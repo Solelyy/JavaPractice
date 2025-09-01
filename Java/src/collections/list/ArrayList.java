@@ -1,5 +1,7 @@
 package collections.list;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class ArrayList {
@@ -10,6 +12,7 @@ public class ArrayList {
     4. Print the list and its size.
      */
     public static void main (String args []){
+        //1.
         List<Integer> numbers = new java.util.ArrayList<>();
         numbers.add(10);
         numbers.add(20);
@@ -17,23 +20,21 @@ public class ArrayList {
         numbers.add(40);
         numbers.add(50);
 
-        numbers.set(1, 23);
-
-        int minNum = numbers.get(0);
-        for (int i= 0; i < numbers.size(); i++){
-            minNum= Math.min(minNum, numbers.get(i));
-
-        }
+        //2.
+        numbers.set(2, 33);
 
         System.out.print("Numbers: ");
         for (int num: numbers) System.out.printf("%d ", num);
         System.out.println();
+        
+        //3.
+        int minNum = Collections.min(numbers);
 
         System.out.println("Smallest number: " + minNum);
-
         System.out.println("\nRemoving the smallest number...");
-
         numbers.remove(Integer.valueOf(minNum));
+
+        //4.
         System.out.print("Updated list: ");
         for (int num: numbers) System.out.printf("%d ", num);
 
