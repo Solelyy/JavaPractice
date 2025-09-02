@@ -1,10 +1,10 @@
 package collections.list;
 
-import java.util.Collection;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ArrayList {
+public class ArrayListDemo {
     /*
     1. Add 5 numbers.
     2. Replace the 3rd number with a new value.
@@ -13,7 +13,7 @@ public class ArrayList {
      */
     public static void main (String args []){
         //1.
-        List<Integer> numbers = new java.util.ArrayList<>();
+        List<Integer> numbers = new ArrayList<>();
         numbers.add(10);
         numbers.add(20);
         numbers.add(30);
