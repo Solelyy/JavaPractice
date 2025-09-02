@@ -2,10 +2,10 @@ package collections.list;
 
 import java.util.LinkedList;
 
-public class LinkedList {
+public class LinkedListDemo {
     /*
     Challenge: Student Queue
-    1. Create a LinkedList<String> called students.
+    1. Create a LinkedListDemo<String> called students.
     2. Add at least 5 student names to the queue.
     3. Print the queue.
     4. Remove the first student (served) and show who was removed.
@@ -18,34 +18,38 @@ public class LinkedList {
 
      */
     public static void main (String args[]){
+        //1.
         LinkedList <String> students = new java.util.LinkedList<>();
+
+        //2.
         students.add("Dinavel");
         students.add("Jamaica");
         students.add("Ginger");
         students.add("Khym");
         students.add("Jessa");
 
-        System.out.println("Students: ");
-        for (String student: students) System.out.printf("%s%n", student);
+        //3.
+        System.out.println("Students: " + students);
 
-        System.out.println("\nRemoving first student: " + students.getFirst());
-        System.out.println("Removing last student: " + students.getLast());
-        students.removeFirst();
-        students.removeLast();
+        //4.
+        System.out.println("\nRemoving first student: " + students.removeFirst());
 
-        System.out.println("\nUpdated list: ");
-        for (String student: students) System.out.printf("%s%n", student);
+        //5.
+        System.out.println("Removing last student: " + students.removeLast());
 
+        //6.
+        System.out.println("\nUpdated list: " + students);
+
+        //7.
         System.out.println("\nFirst in queue: " + students.getFirst());
         System.out.println("Last in queue: " + students.getLast());
 
+        //8 & 9
         students.addFirst("Taylor");
         students.addLast("Sabrina");
         System.out.printf("\nAdding new students: \nFirst: %s\nLast: %s", students.getFirst(), students.getLast());
 
-
-        System.out.println();
-        System.out.println("\nUpdated list: ");
-        for (String student: students) System.out.printf("%s%n", student);
+        //10.
+        System.out.println("\n\nUpdated list: " + students);
     }
 }
