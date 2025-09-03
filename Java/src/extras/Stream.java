@@ -27,7 +27,6 @@ public class Stream {
         System.out.print("Enter artist name: ");
         String userInput= sc.next();
 
-
         /*3. Using foreach loop (enhanced for loop)
         boolean isFound= false;
         for (String artist: artists) {
