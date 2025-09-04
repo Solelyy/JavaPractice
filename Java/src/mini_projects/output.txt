@@ -1,0 +1,5 @@
+Code Digit  Copy Digit  
+5           5           
+6           7           --Error
+7           8           --Error
+Message has errors!
