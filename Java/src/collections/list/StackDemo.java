@@ -25,7 +25,6 @@ public class StackDemo {
             else if (ch == ')') {
                 if (characters.isEmpty()) {
                     characters.push(ch);
-                    break;
                 }
                 else characters.pop();
             }
