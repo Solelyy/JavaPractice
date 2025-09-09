@@ -27,7 +27,7 @@ public class ArrayDequeDemo {
                     "2. Go Back",
                     "3. Go Forward",
                     "4. Exit");
-            System.out.print("Choose: ");
+            System.out.print("Choose (1-4): ");
             int choice = sc.nextInt();
             sc.nextLine();
 
@@ -69,7 +69,7 @@ public class ArrayDequeDemo {
                 }
                 case 4 -> {
                     System.out.println("Exiting...");
-                    return;
+                    return; //exits the whole main method.
                 }
                 default -> System.out.println("Invalid choice.");
             }
