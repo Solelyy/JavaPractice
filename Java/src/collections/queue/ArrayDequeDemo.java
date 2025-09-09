@@ -3,30 +3,33 @@ package collections.queue;
 import java.util.Deque;
 import java.util.Scanner;
 import java.util.ArrayDeque;
+
 public class ArrayDequeDemo {
     /*
-    1. User visits N websites (store them in an ArrayDeque).
-    Support:
-        back → go to the previous website.
-        forward → go to the next website.
-    2. Print the current website after each action.
-     */
-    public static void main (String [] args) {
+    Browser Simulation using ArrayDeque
+    Features:
+    1. Visit pages
+    2. Go Back
+    3. Go Forward
+    4. Exit
+    */
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Deque <String> backStack = new ArrayDeque<>();
-        Deque <String> forwardStack = new ArrayDeque<>();
-        String currentPage = null;
+        Deque<String> backStack = new ArrayDeque<>();
+        Deque<String> forwardStack = new ArrayDeque<>();
+        String currentPage = null; // represents the default page
 
-        while (true){
+        while (true) {
             System.out.println("\n--- Browser Menu ---");
-            System.out.println("1. Visit a page");
-            System.out.println("2. Go Back");
-            System.out.println("3. Go Forward");
-            System.out.println("4. Exit");
+            System.out.printf("%s%n%s%n%s%n%s%n",
+                    "1. Visit a page",
+                    "2. Go Back",
+                    "3. Go Forward",
+                    "4. Exit");
             System.out.print("Choose: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine();
 
             switch (choice) {
                 case 1 -> {
@@ -37,36 +40,37 @@ public class ArrayDequeDemo {
                         backStack.push(currentPage);
                         forwardStack.clear();
                     }
-
                     currentPage = newPage;
                     System.out.println("Visiting: " + currentPage);
                 }
-
                 case 2 -> {
                     if (!backStack.isEmpty()) {
                         forwardStack.push(currentPage);
                         currentPage = backStack.pop();
                         System.out.println("Back -> " + currentPage);
+                    } else if (currentPage != null) {
+                        forwardStack.push(currentPage);
+                        currentPage = null;
+                        System.out.println("Back -> [Home]");
                     } else {
                         System.out.println("No pages in back history.");
                     }
                 }
-
                 case 3 -> {
                     if (!forwardStack.isEmpty()) {
-                        backStack.push(currentPage);
+                        if (currentPage != null) {
+                            backStack.push(currentPage);
+                        }
                         currentPage = forwardStack.pop();
                         System.out.println("Forward -> " + currentPage);
                     } else {
                         System.out.println("No pages in forward history.");
                     }
                 }
-
                 case 4 -> {
                     System.out.println("Exiting...");
                     return;
                 }
-
                 default -> System.out.println("Invalid choice.");
             }
         }
