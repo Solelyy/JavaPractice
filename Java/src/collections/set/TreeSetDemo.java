@@ -1,4 +1,4 @@
 package collections.set;
 
-public class TreeSet {
+public class TreeSetDemo {
 }
