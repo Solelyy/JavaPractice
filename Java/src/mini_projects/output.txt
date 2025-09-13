@@ -1,6 +1,5 @@
 Code Digit  Copy Digit  
-6           5           <--Error
-7           6           <--Error
-8           7           <--Error
-9           9           
+5           5           
+6           7           <--Error
+7           5           <--Error
 Message has errors!
