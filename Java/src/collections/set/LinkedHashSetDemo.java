@@ -35,7 +35,6 @@ public class LinkedHashSetDemo {
         String removeName = sc.nextLine();
         boolean isFound = names.stream().anyMatch(name -> name.equalsIgnoreCase(removeName));
         if (isFound) {
-            System.out.println("Found!");
             names.remove(removeName);
             System.out.printf("\nRemoving %s in the list...", removeName);
         } else {
