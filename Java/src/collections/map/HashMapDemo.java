@@ -37,14 +37,15 @@ public class HashMapDemo {
             }
         }
 
-        //4.
+        //4. Map.Entry<String, Integer> entry (long form) shortcut is just var
         for (var entry: wordCount.entrySet()) {
-            System.out.println(entry.getKey() + " -> " + entry.getValue());
+            System.out.println(entry.getKey() + " = " + entry.getValue());
         }
 
         /* other way:
         wordCount.forEach((word, count) ->
-                System.out.println(word + "->" + count));*/
+                System.out.println(word + "=" + count)
+                );*/
 
         //5.
         System.out.print("Search a word: ");
