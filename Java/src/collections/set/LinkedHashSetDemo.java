@@ -6,6 +6,7 @@ import java.util.HashSet;
 
 public class LinkedHashSetDemo {
     /*
+    Challenge:
     1. Stores the names of people entering a room (simulate with add).
     2. Prints the names in the order they entered.
     3. Then, try removing one person and show the updated set.
