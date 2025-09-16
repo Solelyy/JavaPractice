@@ -5,6 +5,7 @@ import java.util.HashSet;
 
 public class HashSetDemo {
     /*
+    Challenge:
     1. Stores a list of student names.
     2. Ensures no duplicate names are added.
     3. Lets the user search if a student is in the set.
