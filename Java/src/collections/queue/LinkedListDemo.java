@@ -5,6 +5,7 @@ import java.util.Queue;
 
 public class LinkedListDemo {
     /*
+    Challenge:
     1. Ask the user how many customers are in line.
     2. Store the customer names in a Queue (use LinkedList<String>).
     3. Print the first customer using peek().
