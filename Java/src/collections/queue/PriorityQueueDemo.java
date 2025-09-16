@@ -5,6 +5,7 @@ import java.util.Queue;
 
 public class PriorityQueueDemo {
     /*
+    Challenge:
     1. Ask the user how many tasks to add.
     2. Each task has:
         -A name (string)
