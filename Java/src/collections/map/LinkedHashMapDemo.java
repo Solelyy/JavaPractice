@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 
 public class LinkedHashMapDemo {
     /*
+    Challenge:
     1. Ask the user to input words one by one.
     2. Store each word in a LinkedHashMap<String, Integer>.
     Key → word
@@ -38,7 +39,7 @@ public class LinkedHashMapDemo {
         for (var entry: wordCount.entrySet()) {
             System.out.println(entry.getKey()  + " = " + entry.getValue());
         }
-        
+
         System.out.println();
         System.out.print("Search word: ");
         String searchWord = sc.next().toLowerCase();
