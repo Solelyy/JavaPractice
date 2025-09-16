@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 public class HashMapDemo {
     /*
+    Challenge:
     1. Ask the user to input a sentence.
     2. Split the sentence into words.
     3. Use a HashMap<String, Integer>:

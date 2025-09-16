@@ -1,4 +1,4 @@
 package collections.map;
 
-public class TreeMap {
+public class TreeMapDemo {
 }
