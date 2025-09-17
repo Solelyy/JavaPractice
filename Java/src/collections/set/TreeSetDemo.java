@@ -1,13 +1,12 @@
 package collections.set;
 
-import java.util.Collections;
 import java.util.Scanner;
 import java.util.TreeSet;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class TreeSetDemo {
     /*
+    Challenge:
     1. Stores a list of numbers entered by the user.
     2. Prints them in ascending order (default).
     3. Prints them in descending order (using descendingSet()).
