@@ -6,6 +6,7 @@ import java.util.List;
 
 public class ArrayListDemo {
     /*
+    Challenge:
     1. Add 5 numbers.
     2. Replace the 3rd number with a new value.
     3. Remove the smallest number.
