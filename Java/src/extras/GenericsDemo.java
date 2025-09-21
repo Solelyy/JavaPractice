@@ -33,5 +33,21 @@ public class GenericsDemo {
         Pair <Integer, Integer> numbers= new Pair<>(firstNum, secondNum);
         System.out.print("Numbers: ");
         numbers.print();
+
+
+        /* Shorter code:
+        static class Pair<T, U> {
+            T first; U second;
+            Pair(T first, U second) { this.first = first; this.second = second; }
+            void print() { System.out.println(first + ", " + second); }
+        }
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter two numbers: ");
+            Pair<Integer, Integer> numbers = new Pair<>(sc.nextInt(), sc.nextInt());
+            System.out.print("Numbers: ");
+            numbers.print();
+        }
+         */
     }
 }
