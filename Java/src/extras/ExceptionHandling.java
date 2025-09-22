@@ -9,14 +9,18 @@ public class ExceptionHandling {
         do {
             try {
                 System.out.print("Enter a number: ");
-                int number= s.nextInt();
+                double number= s.nextDouble();
 
-                int square= number * number;
-                System.out.printf("Number: %d%nSquare: %d", number, square);
+                double square= number * number;
+                System.out.printf("Number: %.2f%nSquare: %.2f", number, square);
+                System.out.println();
                 break;
             } catch (InputMismatchException e) {
                 System.out.println("Input numbers only.");
                 s.nextLine();
+            } finally {
+                // This always runs even with or without error
+                System.out.println("\nProgram finished.");
             }
         } while (true);
     }
