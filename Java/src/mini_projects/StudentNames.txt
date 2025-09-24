@@ -1,6 +1,6 @@
 Students:
-1. Taylor Swift        
-2. Sabrina Carpenter   
-3. Harry Styles        
+1. Harry Styles        
+2. Taylor Swift        
+3. Ariana Grande       
 4. Olivia Rodrigo      
-5. Ariana Grande       
+5. Sabrina Carpenter   
