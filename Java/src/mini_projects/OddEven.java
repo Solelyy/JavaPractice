@@ -1,4 +1,4 @@
-package arrays;
+package mini_projects;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
