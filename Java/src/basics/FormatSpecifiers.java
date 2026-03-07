@@ -19,7 +19,7 @@ public class FormatSpecifiers {
             %b - boolean
             %c - char
             %d - int
-            %f - float and double]
+            %f - float and double
             %s - String
 
             %[flags][precision][width][conversion character]
