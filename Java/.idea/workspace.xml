@@ -4,7 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="441ce253-2bf0-4681-a157-6b9cf69916e6" name="Changes" comment="" />
+    <list default="true" id="441ce253-2bf0-4681-a157-6b9cf69916e6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/arrays/.UserAccount 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/basics/.FormatSpecifiers 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/basics/.InputAndArithmeticOperator 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/basics/.VariableAndDataType 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/iterator/.Enumeration 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/iterator/.Iterator 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/iterator/.ListIterator 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/list/.ArrayListDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/list/.StackDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/list/.VectorDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/map/.HashMapDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/map/.LinkedHashMapDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/map/.TreeMapDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/queue/.ArrayDequeDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/queue/.LinkedListDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/queue/.PriorityQueueDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/queue/.Task 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/set/.HashSetDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/set/.TreeSetDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/utility/.Arrays 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/collections/utility/.Collections 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/conditionals_loops/.ConditionalStatements 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/conditionals_loops/.ForEach 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/conditionals_loops/.ForLoop 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/conditionals_loops/.NestedForLoop 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/conditionals_loops/.SwitchCase 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/conditionals_loops/.WhileLoop 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.AutoboxingUnboxing 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.ExceptionHandling 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.FileReaderSample 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.FileWriterSample 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.FunctionalInterface 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.GenericsDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.GenericsDemo$Pair 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.LambdaDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.LoggingDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.RecursiveMethod 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.Stream 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.StringMethods 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.TypeCasting 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/extras/.Varargs 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/methods/.BinarySearch 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/methods/.InsertionSort 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/methods/.LinearSearch 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/methods/.MethodDemo 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/methods/.Node 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/methods/.Polynomial 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/methods/.PolynomialLinkedList 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/methods/.SelectionSort 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/mini_projects/.ErrorDetection 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/mini_projects/.OddEven 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/mini_projects/.QuizGame 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/mini_projects/.StudentNames 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/mini_projects/.ToDoList 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/abstraction/.FullTime 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/abstraction/.Main 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/abstraction/.PartTime 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/encapsulation/.Main 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/encapsulation/.Student 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/enums/.CoffeeSize 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/enums/.Main 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/inheritance/.Graduate 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/inheritance/.Main 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/inheritance/.Person 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/inheritance/.Student 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/interfaces/.Circle 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/interfaces/.Main 2.class.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaPractice/oop/interfaces/.Rectangle 2.class.icloud" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +88,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Solelyy"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Solelyy/JavaPractice.git",
+    "accountId": "4581bb3e-e787-4b85-acb7-5b3ebea6f3a4"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -31,7 +115,10 @@
   "keyToString": {
     "Application.ExceptionHandling.executor": "Run",
     "Application.RecursiveMethod.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.JavaFX"
   }
