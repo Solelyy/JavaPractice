@@ -51,8 +51,19 @@ public class Main {
 
         Person[] persons = new Person[2];
 
-        persons[0] = new Student("Jessa", "Gozun", "BSIT", (byte) 3);
-        persons[1] = new Professor("Taylor", "Swift", "IT", 30_000);
+        persons[0] = new Student(
+                "Jessa",
+                "Gozun",
+                new Course("BSIT"),
+                (byte) 3
+        );
+
+        persons[1] = new Professor(
+                "Taylor",
+                "Swift",
+                new Department("IT"),
+                new Salary(30_000)
+        );
 
         for (Person person: persons) {
             person.introduceSelf();

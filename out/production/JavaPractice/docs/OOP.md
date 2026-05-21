@@ -242,10 +242,53 @@ class Dog extends Animal {
 ```
 
 ---
+### Types of Inheritance
+#### 1. Single Inheritance
+- one parent -> one child
+``` java
+class Person {}
+class Student extends Person {}
+```
+
+#### 2. Multi-level Inheritance
+- chain of inheritance
+``` java
+class Person {}
+class Employee extends Person {}
+class Professor extends Employee {}
+```
+
+#### 3. Hierarchical Inheritance
+- one parent -> many children
+``` java
+class Person {}
+
+class Student extends Person {}
+class Professor extends Person {}
+class Staff extends Person {}
+```
+
+#### Note:
+**Multiple Inheritance** is not allowed.
+``` java
+class A {}
+class B {}
+class C extends A, B // this is not allowed
+```
+
+- But Java allows multiple inheritance through interfaces
+``` java
+interface Payable {}
+interface Loggable {}
+
+class Professor implements Payable, Loggable {}
+```
+---
 
 ### Polymorphism
 
 One reference can represent multiple object types.
+“Same method call behaves differently depending on actual object type at runtime”
 
 ```java
 Animal animal = new Dog();
@@ -650,8 +693,9 @@ class MathUtil {
 ---
 
 ### Composition
-
-"Has-a" relationship.
+- Composition is an OOP principle where one class is composed of one or more objects of other classes, 
+forming a HAS-A relationship. It is used to build complex systems from smaller reusable components and 
+helps improve flexibility and maintainability.
 
 ```java
 class Engine {
@@ -669,6 +713,7 @@ Car HAS an Engine.
 ### Association
 
 Relationship between independent objects.
+- This is when two classes are related and interact with each other, but neither owns the other.
 
 Example:
 - Teacher teaches Student
@@ -679,6 +724,8 @@ Example:
 ### Aggregation
 
 Weak ownership relationship.
+- Is a special type of association where one class “has” another class, 
+but the child can exist independently
 
 Example:
 - Department has Teachers

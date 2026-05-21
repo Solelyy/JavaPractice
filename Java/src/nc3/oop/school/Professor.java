@@ -1,17 +1,13 @@
 package nc3.oop.school;
 
 public class Professor extends Person implements Payable {
-    private String department;
-    private double monthlySalary;
+    private Department department;
+    private Salary salary;
 
-    public Professor(String firstName, String lastName, String department, double monthlySalary) {
+    public Professor(String firstName, String lastName, Department department, Salary salary) {
         super(firstName, lastName);
         this.department = department;
-        this.monthlySalary = monthlySalary;
-    }
-
-    public String getDepartment() {
-        return department;
+        this.salary = salary;
     }
 
     @Override
@@ -25,7 +21,7 @@ public class Professor extends Person implements Payable {
                 Professor
                 Name        : %s
                 Department  : %s
-                """.formatted(getFullName(), getDepartment());
+                """.formatted(getFullName(), department.getDepartment());
     }
 
     @Override
@@ -35,6 +31,6 @@ public class Professor extends Person implements Payable {
 
     @Override
     public double computeSalary() {
-        return monthlySalary;
+        return salary.getAmount();
     }
 }

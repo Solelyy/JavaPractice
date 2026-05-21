@@ -1,11 +1,11 @@
 package nc3.oop.school;
 
 public class Student extends Person {
-    private String course;
+    private Course course;
     private byte year;
     //add student number
 
-    public Student(String firstName, String lastName, String course, byte year) {
+    public Student(String firstName, String lastName, Course course, byte year) {
         super(firstName, lastName);
         this.course = course;
         setYear(year);
@@ -21,16 +21,8 @@ public class Student extends Person {
         };
     }
 
-    public String getCourse() {
-        return course;
-    }
-
     public static String getSchool() {
         return school;
-    }
-
-    public void setCourse(String course) {
-        this.course = course;
     }
 
     public void setYear(byte year) {
@@ -47,12 +39,12 @@ public class Student extends Person {
                 Student
                 Name           : %s        
                 Course & Year  : %s - %s
-                """.formatted(getFullName(), getCourse(), getFormattedYear());
+                """.formatted(getFullName(), course.getCourse(), getFormattedYear());
     }
 
     @Override
     public void introduceSelf() {
         System.out.println("Hello, I am %s! I am currently %s year %s student!"
-                .formatted(getFullName(), getFormattedYear(), getCourse()));
+                .formatted(getFullName(), getFormattedYear(), course.getCourse()));
     }
 }
