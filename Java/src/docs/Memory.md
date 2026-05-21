@@ -26,17 +26,19 @@ when there's nothing addresses to it
 ### String Pool
 - a special area inside the heap for storing string literals
 - if we create a string using new String() it creates another object
-ex:
+``` java
 String a = "Hello";
 String b = "Hello";
 
 System.out.println(a == b); // true
-
-ex:
+```
+while, 
+``` java
 // if we create new String()
 String a = new String("Hello");
 String b = new String("Hello");
 System.out.println(a == b); // false
+```
 
 --------------------------------
 ### Metaspace 
