@@ -9,12 +9,14 @@ public class BinarySearch {
     public static int binarySearch(int [] arr , int target) {
         int left = 0;
         int right = arr.length -1;
-
+//             4    <=   4
         while (left <= right) {
+            // mid : 4
             int mid = (left + right) / 2;
-
+            //
             if (arr[mid] == target)
                 return mid; // found
+            //          23     <   10
             else if (arr[mid] < target)
                 left = mid + 1;
             else
@@ -25,7 +27,7 @@ public class BinarySearch {
 
     public static void main (String [] args){
         Scanner sc= new Scanner(System.in);
-
+        // 1, 5, 7, 9, 10, 23,63
         int [] array = {10, 63, 1, 9, 7, 5, 23};
         Arrays.sort(array);
 
